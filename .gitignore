@@ -1,10 +1,22 @@
-# Kompilacja i pliki binarne
+# Kompilacja C++ i pliki binarne
+*.exe
 *.o
 *.obj
-*.exe
 *.out
+*.a
+*.so
+*.dll
 
-# Konfiguracja środowiska
+# Katalogi budowania i wyniki kompilacji
+build/
+bin/
+out/
+
+# Ustawienia lokalne środowiska (VS Code, Visual Studio)
 .vscode/
 .vs/
-build/
+.idea/
+
+# Pliki tymczasowe systemu Windows
+Thumbs.db
+Desktop.ini
